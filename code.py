@@ -104,6 +104,9 @@ plt.title("Movie duration by year of release")
 plt.xlabel("Release year")
 plt.ylabel("Duration (min)")
 
+# Adding plot text
+plt.figtext(0.5, 0.02, " Genre: Blue = Documentaries; Green = Stand-Up; Red = Children; Black = Others;", ha="center", fontsize=10)
+
 # Show the plot
 plt.show()
 
